@@ -155,3 +155,144 @@ nav ul li a{
     padding: 0 20px 20px;
 }
 /* speakers section end */
+
+
+/*pricing section */
+.pricing{
+    
+    text-align:center;
+    padding-bottom: 80px;
+}
+.pricing h2{
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.pricing-subtitle{
+    color:#5f6572;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.pricing-grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:24px;
+    align-items: stretch;
+}
+.price-card{
+    background:#fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 32px 28px;
+    text-align:left;
+    display:flex;
+    flex-direction: column;
+}
+.price-card.featured{
+    background-color:#0F172A;
+    color:#fff;
+    border-color:#0F172A;
+}
+
+.plan-label{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:#6B7280;
+    margin-bottom: 12px;
+}
+ 
+.price-card.featured .plan-label{
+    color:#93C5FD;
+}
+ 
+.plan-price{
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+ 
+.plan-price span{
+    display:block;
+    font-size: 14px;
+    font-weight: 400;
+    color:#6B7280;
+    margin-top: 4px;
+}
+ 
+.price-card.featured .plan-price span{
+    color:#9CA3AF;
+}
+ 
+.price-card hr{
+    border:none;
+    border-top: 1px solid #E5E7EB;
+    margin-bottom: 20px;
+}
+ 
+.price-card.featured hr{
+    border-top: 1px solid #1F2937;
+}
+ 
+.plan-features{
+    list-style:none;
+    margin-bottom: 28px;
+    flex-grow: 1;
+}
+ .plan-features li::before{
+    content:"";
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background:#2563EB;
+}
+.price-card.featured .plan-features li::before{
+    background:#60A5FA;
+}
+.pricing-grid .price-card:last-child{
+    background-color:#F9FAFB;
+}
+.plan-features li{
+    font-size: 14px;
+    padding: 6px 0 6px 22px;
+    position: relative;
+    color:#374151;
+}
+ 
+.price-card.featured .plan-features li{
+    color:#E5E7EB;
+}
+
+.plan-btn{
+    width:100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    cursor:pointer;
+}
+ 
+.plan-btn.outline{
+    background:#fff;
+    border: 1px solid #6290d5;
+    color:#0d4acf;
+}
+ 
+
+ 
+.plan-btn.solid{
+    background:#2563EB;
+    border:none;
+    color:#fff;
+}
+.plan-btn.vip{
+    background:#fff;
+    border: 1px solid #020914;
+    color:#000102;
+}
