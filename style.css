@@ -1,0 +1,109 @@
+*{
+    padding:0;
+    margin:0;
+      font-family: "Open Sans", sans-serif;
+      box-sizing:border-box;
+
+}
+.container{
+     max-width: 1200px;
+    margin:auto;
+}
+/* nav bar */
+ nav{
+    display:flex;
+    justify-content:space-between;
+        align-items:center;
+
+    padding:12px ;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+     width:100px;
+    height:50px;
+}
+
+
+
+nav button{
+   background-color:blue;
+   padding:14px 30px;
+   border-radius: 10px;
+   font-weight: bold;
+   font-size: 16px;
+   color : white;
+   cursor:pointer;
+   border:none;
+    
+}
+
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    gap:10px;
+
+}
+nav ul li a{
+    text-decoration: none;
+        align-items: center;
+        justify-content: center;
+
+
+}
+/*nav end */
+
+
+/* hero section */
+.hero{
+    background: linear-gradient(180deg, rgba(4,7,20,0.45), rgba(4,7,20,0.8)), url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding: 100px 24px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:#fff;
+}
+.hero-content{
+    max-width: 760px;
+    margin: 0 auto;
+     
+}
+.hero-content h1{
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 20px;
+
+}
+ 
+.hero-content h1 em{
+    font-style: italic;
+}
+.hero-content p{
+    font-size: 17px;
+    line-height: 1.6;
+    color:#D1D5DB;
+    margin-bottom: 0px;
+}
+.hero-content button{
+   background-color:rgb(8, 8, 198);
+   padding:14px 30px ;
+   border-radius: 8px;
+   font-weight: bold;
+   font-size: 22px;
+   color : white;
+   cursor:pointer;
+   border:none;
+   margin-top: 250px; 
+    
+}
+/* hero section end */
+
+
